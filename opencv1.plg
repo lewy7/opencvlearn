@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: opencv1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/opencv1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cv.lib cxcore.lib highgui.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/opencv1.pdb" /debug /machine:I386 /out:"Debug/opencv1.exe" /pdbtype:sept 
+".\Debug\charpter10.obj"
+".\Debug\charpter11.obj"
+".\Debug\charpter12.obj"
+".\Debug\charpter6.obj"
+".\Debug\charpter7.obj"
+".\Debug\charpter8.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC0.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp(37) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp(37) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp(37) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp(37) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp(30) : warning C4101: 'cvp' : unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp(32) : warning C4101: 'cvr' : unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp(33) : warning C4101: 'cvs' : unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\MyProjects\opencv1\main.cpp(31) : warning C4101: 'cvz' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/opencv1.bsc"  ".\Debug\charpter10.sbr" ".\Debug\charpter11.sbr" ".\Debug\charpter12.sbr" ".\Debug\charpter6.sbr" ".\Debug\charpter7.sbr" ".\Debug\charpter8.sbr" ".\Debug\main.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+opencv1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
